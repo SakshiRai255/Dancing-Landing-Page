@@ -53,7 +53,7 @@
     display: block;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 500px) {
 .logo {
   margin-left: 4px;
 }
@@ -171,7 +171,7 @@
 }
 @media (max-width: 800px) {
   .timeline-container {
-    top: 105vh;
+    top: 110vh;
     left: 10vw;
     padding: 2px 2px;
   }
