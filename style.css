@@ -1,0 +1,222 @@
+/*-----------CSS Reset-----------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+.logo {
+  height: 35px;
+  width: 110px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+/*-----Left-Big-Image--------------*/
+.left-big-img {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 40vw;
+}
+/*-----------NavBar-----------*/
+
+#navbar {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  justify-content: space-between;
+}
+/*-----------Menu-List-----------*/
+#menu-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+.list-item {
+  margin: 0px 20px;
+}
+.horizontal-line {
+  width: 280px;
+  height: 30px;
+}
+.list-item a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(161, 161, 161);
+  font-family: "Poppins", sans-serif;
+}
+a.active {
+  color: #000;
+}
+
+#btn,
+#cancel {
+  font-size: 35px;
+  line-height: 80px;
+  cursor: pointer;
+  margin-left: 15px;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+/*---------------first-heading-section-----------*/
+#first-heading-section {
+  position: absolute;
+  top: 18vh;
+  left: 44vw;
+}
+.heading h1 {
+  font-size: 95px;
+  font-weight: 900;
+  font-family: "Londrina Outline";
+  line-height: 80px;
+}
+.heading h1 span {
+  font-family: "Abril Fatface";
+  color: rgb(70, 69, 69);
+  margin-left: 95px;
+}
+.para-btn {
+  position: absolute;
+  top: 100px;
+  left: 420px;
+  width: 20vw;
+}
+.heading p {
+  font-size: 28px;
+  color: rgb(102, 101, 101);
+}
+.btn {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(61, 60, 60);
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 40px;
+  margin-top: 35px;
+}
+
+/*-----------Social-Media-Icon--------------*/
+
+#social-meadia-icon {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  right: 60px;
+}
+.social-meadia-img {
+  height: 45px;
+  width: 45px;
+  padding: 12px 10px;
+  margin: 8px 0px;
+}
+
+/*-------------TimeLine-Section-------------*/
+
+.timeline-container {
+  display: flex;
+  position: absolute;
+  top: 57vh;
+  left: 45vw;
+  padding: 2px 2px;
+}
+.timelineArea::before,
+.timeline::before {
+  position: absolute;
+  content: " ";
+}
+.timelineArea,
+.timeline {
+  position: relative;
+}
+.timelineArea {
+  list-style: none;
+}
+.timelineArea::before {
+  height: 100%;
+  width: 1px;
+  background-color: rgb(117, 115, 115);
+  left: -1rem;
+  top: 1.1rem;
+}
+.timeline {
+  padding: 5px 0;
+  margin-left: 15px;
+}
+.timeline:nth-child(1) {
+  margin-top: 0px;
+}
+.timeline:nth-child(6) {
+  margin-bottom: 30px;
+}
+
+.timeline::before {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  top: 37%;
+  background-color: rgb(117, 115, 115);
+  transform: translate(-50%);
+  left: -30px;
+}
+
+.timeline p {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  color: rgb(133, 133, 133);
+}
+.timeline:nth-child(1).active2::before {
+  background-color: #000;
+}
+p.active3 {
+  color: #000;
+}
+
+/*--------------second-img-section---------------*/
+
+#second-img-section {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 50vh;
+  left: 61vw;
+  align-items: center;
+}
+.right-img-heading {
+  width: 28vw;
+}
+.right-img-heading h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(65, 63, 63);
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.right-img-heading h3 {
+  font-size: 16px;
+  color: rgb(49, 49, 49);
+  font-family: "Open Sans", sans-serif;
+}
+.second-right-img {
+  height: 28vh;
+  width: 25vw;
+  padding-top: 20px;
+}
+.down-arrow {
+  height: 16vh;
+  width: 36px;
+  position: relative;
+  top: 55px;
+  left: 45px;
+}
