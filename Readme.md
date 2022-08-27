@@ -7,7 +7,7 @@
  -  CSS
 ---
 
-##  [live-link]()
+##  [live-link](https://bright-palmier-ea8ece.netlify.app/)
 
 ### These images related to landing page
 

@@ -111,6 +111,12 @@
   }
 }
 @media (max-width: 580px) {
+  .logo {
+    
+    width: 100px;
+    
+  }
+  
   #first-heading-section {
     top: 35vh;
     left: 40vw;
@@ -168,5 +174,28 @@
     top: 95vh;
     left: 45vw;
     align-items: center;
+  }
+}
+@media (max-width: 490px) {
+  #second-img-section {
+    top: 97vh;
+    left: 48vw;
+    
+  }
+  .timeline p {
+    font-size: 12px; 
+  }
+  .right-img-heading h1 {
+    margin-top: 10px;
+    font-size: 50px;
+    padding-bottom: 5px;
+  }
+  .right-img-heading h3 {
+    font-size: 12px;
+    
+  }
+  .down-arrow {
+    top: 70px;
+    left: 10px;
   }
 }
