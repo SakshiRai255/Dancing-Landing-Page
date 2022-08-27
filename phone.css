@@ -54,6 +54,11 @@
   }
 }
 @media (max-width: 1200px) {
+.logo {
+  margin-left: 4px;
+}
+}
+@media (max-width: 1200px) {
 .horizontal-line {
   width: 200px;
 }
