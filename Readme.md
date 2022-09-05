@@ -1,15 +1,15 @@
-##  This is my Fourteen landing page created for learning front end designing using HTML and CSS.
+##  This is a landing page created for learning front end designing using HTML and CSS.
 
-## This landing page is responsive.
+## This page is responsive.
 
 ### Tech Stack Used:-
  -  HTML
  -  CSS
 ---
 
-##  [live-link](https://bright-palmier-ea8ece.netlify.app/)
+##  [live-link](https://dancing-adda.netlify.app/)
 
-### These images related to landing page
+### Snapshots
 
 ---
 
